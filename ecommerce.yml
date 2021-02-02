@@ -13,7 +13,7 @@ DATABASES:
         HOST: localhost
         NAME: ecommerce
         OPTIONS:
-            read_default_file: /opt/edx-ficus.3-2/mysql/my.cnf
+            read_default_file: /opt/OpenEdx/mysql/my.cnf
         PASSWORD: password
         PORT: 3306
         USER: ecommerce
@@ -69,7 +69,7 @@ SOCIAL_AUTH_EDX_OIDC_LOGOUT_URL: http://my.openedx.com/logout
 SOCIAL_AUTH_EDX_OIDC_SECRET: ecommerce-secret
 SOCIAL_AUTH_EDX_OIDC_URL_ROOT: http://my.openedx.com/oauth2
 SOCIAL_AUTH_REDIRECT_IS_HTTPS: false
-STATIC_ROOT: /opt/edx-ficus.3-2/apps/ecommerce/var/staticfiles
+STATIC_ROOT: /opt/OpenEdx/apps/ecommerce/var/staticfiles
 THEME_SCSS: sass/themes/default.scss
 TIME_ZONE: Asia/Seoul
 

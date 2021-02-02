@@ -16,7 +16,7 @@ server {
   # there is an unfortunate mix of conditonals here.
   
   location ~ ^/static/(?P<file>.*) {
-    root /opt/edx-ficus.3-2/apps/ecommerce/var;
+    root /opt/OpenEdx/apps/ecommerce/var;
     try_files /staticfiles/$file =404;
   }
 
